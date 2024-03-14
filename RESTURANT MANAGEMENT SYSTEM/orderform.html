@@ -1,0 +1,254 @@
+<html> 
+<head>
+<title>FOOD ORDER FORM</title>
+<link rel="stylesheet" type="text/css" href="formCssFile.css">
+<script type="text/javascript" src="scriptfile.js">  </script> 
+</head>
+<body >  
+<div> 
+<h2>==========Price list==========</h2> 
+<table width="40%" id="alignment" > 
+<tr>  
+<th>Food Item</th> 
+<th></th>
+<th>Price(Rs.)</th>
+</tr> 
+<tr>
+<td>pav bhaji</td> 
+<td> - </td>
+<td>100.00</td> 
+</tr> 
+<tr>
+<td>misal pav</td>
+<td> - </td> 
+<td>50.00</td> 
+</tr>
+<tr> 
+<td>vada pav</td>
+<td> - </td>  
+<td>50.00</td>
+</tr> 
+<tr>
+<td>vej maratha</td> 
+<td> - </td>
+<td>100.00</td> 
+</tr> 
+<tr>
+<td>paneer masala</td> 
+<td> - </td>
+<td>120.00</td> 
+</tr> 
+<tr>
+<td>bhakar vadi</td>
+<td> - </td> 
+<td>80.00</td> 
+</tr>
+<tr> 
+<td>patra</td>
+<td> - </td>  
+<td>100.00</td>
+</tr> 
+<tr>
+<td>dal dhokli</td> 
+<td> - </td>
+<td>40.00</td> 
+</tr> 
+<tr>
+<td>gujrati thali</td>
+<td> - </td> 
+<td>120.00</td> 
+</tr>
+<tr> 
+<td>shahi thali</td>
+<td> - </td>  
+<td>150.00</td>
+</tr> 
+<tr>
+<td>handva</td> 
+<td> - </td>
+<td>70.00</td> 
+</tr> 
+<tr>
+<td>khandvi</td>
+<td> - </td> 
+<td>120.00</td> 
+</tr>
+<tr>
+<td>chole bhature</td> 
+<td> - </td>
+<td>80.00</td> 
+</tr> 
+<tr> 
+<td>dal makhani</td>
+<td> - </td>  
+<td>170.00</td>
+</tr> 
+<tr>
+<td>paneer tikka</td> 
+<td> - </td>
+<td>200.00</td> 
+</tr> 
+<tr>
+<td>Aloo paratha</td>
+<td> - </td> 
+<td>100.00</td> 
+</tr>
+<tr> 
+<td>rajma chaval</td>
+<td> - </td>  
+<td>100.00</td>
+</tr> 
+<tr>
+<td>sarso ka saag</td>
+<td> - </td> 
+<td>110.00</td> 
+</tr>
+<tr> 
+<td>makki ki roti</td>
+<td> - </td>  
+<td>30.00</td>
+</tr> 
+<tr>
+<td>noodels</td> 
+<td> - </td>
+<td>140.00</td> 
+</tr> 
+<tr>
+<td>pasta</td>
+<td> - </td> 
+<td>80.00</td> 
+</tr>
+<tr> 
+<td>sandwich</td>
+<td> - </td>  
+<td>130.00</td>
+</tr> 
+<tr>  
+<td>garlic bread</td>
+<td> - </td> 
+<td>90.00</td> 
+</tr>  
+<tr>
+<td>burger</td>
+<td> - </td> 
+<td>150.00</td>
+</tr>
+<tr>
+<td>pizza</td>
+<td> - </td> 
+<td>250.00</td>
+</tr>
+<tr>
+<td>french fries</td>
+<td> - </td> 
+<td>80.00</td>
+</tr>
+</table>
+<h>FIT Food - Order Form</h1>
+<table style="background-color:aquamarine;margin-left: 100px;">  <tr>
+<td>Branch : </td>
+<td> 
+<select> 
+<option>--Select Item--</option>
+<option>manchar</option>
+<option>khed</option> 
+</select>
+</td> 
+</tr>
+<tr>
+<td>User name:</td>
+<td>
+<input type="text" >
+</td>
+</tr>
+<tr>
+<td>Address:</td>
+<td>
+<input type="text" >
+</td>
+</tr>
+<tr><td>Mobile: </td>
+<td><input type="text" id="mblenmb" onfocusout="checkmob()"></td></tr> 
+</table>
+<br>
+<form name="tblform" >
+<table width="80%"  id="alignment" >
+<tr>
+<th>Food Item</th>
+<th> </th>
+<th>Quantity</th>
+<th>Price</th> 
+</tr>
+<tr> 
+<td>marathi:</td> 
+<td>
+<select id="marathi">
+<option value="1">--Select Item--</option> 
+<option value="misal pav">misal pav</option> 
+<option value="pav bhaji">pav bhaji</option> 
+<option value="vada pav">vada pav</option> 
+<option value="vej maratha">vej maratha</option> 
+<option value="panir masala">panir masala</option> 
+<option value="bhakar vadi">bhakar vadi</option
+</select>
+</td> 
+<td><input type="number" value="0" id="q1"></td>
+<td><input type="text" id="p1"></td>
+</tr>   
+<tr>
+<td>gujrati:</td>
+<td>
+<select id="gujrati"> 
+<option value="1">--Select Item--</option> 
+<option value="patra">patra</option> 
+<option value="dal dhokli">dal dhokli</option> 
+<option value="gujrati thali">gujrati thali</option>  
+<option value="shahi thali">shahi thali</option>
+<option value="handava">handava</option>  
+<option value="khandvi">khandvi</option>  
+</select>
+</td>
+<td><input  type="number" value="0" id="q2"></td>  
+<td><input type="text"  id="p2"></td>  
+</tr> 
+<tr>
+<td>punjabi:</td>
+<td><select id="punjabi">  
+<option value="1">--Select Item--</option> 
+<option value="chole bhature">chole bhature</option>  
+<option value="dal makhani">dal makhani</option> 
+<option value="paneer tikka">paneer tikka</option>
+<option value="aloo paratha">aloo paratha</option> 
+<option value="rajma chaval">rajma chaval</option>
+<option value="sarso ka saag">sarso ka saag</option> 
+<option value="makki ki roti">makki ki roti</option> 
+</select>
+</td>
+<td><input type="number" value="0" id="q3"></td>
+<td><input type="text"  id="p3"></td> 
+</tr> 
+<tr>
+<td>chinese:</td>
+<td><select id="chinese">   
+<option value="1">--Select Item--</option> 
+<option value="noodels">noodels</option>   
+<option value="pasta">pasta</option> 
+<option value="sandwich">sandwich</option> 
+<option value="garlic bread">garlic bread</option> 
+<option value="burger">burger</option>
+<option value="pizza">pizza</option>
+<option value="french fries">french fries</option>   
+</select>
+</td>
+<td><input type="number" value="0" id="q4"></td>
+<td><input type="text"  id="p4"></td> 
+</tr>    
+<tr>
+<td></td> 
+<td></td> 
+<td><input type="submit" class="button" value="Create Bill" onclick=createBill()></td>
+<td><input type="reset" class="button" value="Clear"></td>
+</tr>
+</table>
+</form>
+</html >
